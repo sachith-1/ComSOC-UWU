@@ -1,3 +1,3 @@
 # ComSOC-UWU
-Developing website for COM SOC UWU
+Developing website for Computer Society -UWU
 Sachith Siriwardana
