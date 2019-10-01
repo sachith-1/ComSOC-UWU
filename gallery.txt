@@ -1,0 +1,53 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- -------------------------------------------------------------------------------------------START NEW MONTH------------------------------------------------------------------------------------------ --> 
+<figure class="snip1237">
+<div class="image" id="truck"> <img src="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1223" alt="Touch-A-Truck" height="100%" width="100%"><em></em>
+ </div>
+<figcaption>
+<h3 style="text-align:center;">Touch-A-Truck</h3><br> 
+<a href="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1223" class="read-more">Read More</a> 
+</figcaption> 
+</figure> 
+
+
+<!-- -------------------------------------------------------------------------------------------START NEW MONTH------------------------------------------------------------------------------------------ -->
+<figure class="snip1237">
+<div class="image" id="yardsale"> <img src="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1234" alt="Yard Sale" height="100%" width="100%"><em></em>
+ </div>
+<figcaption>
+<h3 style="text-align:center;">Community Yard Sale</h3><br> 
+<a href="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1234" class="read-more">Read More</a> </figcaption> </figure> 
+
+<!-- -------------------------------------------------------------------------------------------START NEW MONTH------------------------------------------------------------------------------------------ --> 
+<figure class="snip1237">
+<div class="image" id="shredding"> <img src="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1226" alt="Shredding Day" height="100%" width="100%"><em></em>
+ </div>
+<figcaption>
+<h3 style="text-align:center;">Shredding day</h3><br> 
+<a href="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1226" class="read-more">Read More</a> </figcaption> </figure>
+
+<!-- -------------------------------------------------------------------------------------------START NEW MONTH------------------------------------------------------------------------------------------ --> 
+<figure class="snip1237">
+<div class="image" id="haunt"> <img src="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1221" alt="Haunted Barn" height="100%" width="100%"><em></em>
+ </div>
+<figcaption>
+<h3 style="text-align:center;">Haunted Barn</h3><br> 
+<a href="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1221" class="read-more">Read More</a> </figcaption> </figure>
+
+<!-- -------------------------------------------------------------------------------------------START NEW MONTH------------------------------------------------------------------------------------------ --> <figure class="snip1237">
+<div class="image" id="teenie"> <img src="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1222" alt="Teenie Halloweenie" height="100%" width="100%"><em></em>
+ </div>
+<figcaption>
+<h3 style="text-align:center;">Teenie Halloweenie</h3><br> 
+<a href="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1222" class="read-more">Read More</a> </figcaption> </figure> 
+
+<!-- -------------------------------------------------------------------------------------------START NEW MONTH------------------------------------------------------------------------------------------ --> <figure class="snip1237">
+<div class="image" id="gingerbread"> <img src="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1220" alt="Gingerbread" height="100%" width="100%"><em></em>
+ </div>
+<figcaption>
+<h3 style="text-align:center;">Gingerbread House Decorating Contest</h3>  
+<a href="http://www.whitemarshtwp.org/ImageRepository/Document?documentID=1220" class="read-more">Read More</a> </figcaption> </figure> 

@@ -1,0 +1,154 @@
+
+
+/* Our Work */
+
+.tm-gallery-wrap {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1600px) {
+  .tm-gallery-wrap {
+    max-width: 780px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tm-gallery-wrap {
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tm-gallery-wrap {
+    max-width: 780px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tm-gallery-wrap {
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tm-gallery-wrap {
+    max-width: 260px;
+  }
+}
+
+.tm-gallery-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.slick-dots {
+  bottom: -50px;
+  size: 160px;
+}
+
+.slick-dots li button:before {
+  font-size: 16px;
+  opacity: 0.2;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #98999a;
+  opacity: 1;
+}
+
+/* 
+  Gallery Item Hover Effect
+  https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/
+*/
+
+/* Common style */
+
+
+.tm-gallery-item figure img {
+  position: relative;
+  display: block;
+  min-height: 80%;
+  max-width: 80%;
+  opacity: 0.8;
+}
+
+.tm-gallery-item figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.tm-gallery-item figure h2 span {
+  font-weight: 800;
+}
+
+.tm-gallery-item figure h2,
+.tm-gallery-item figure p {
+  margin: 0;
+}
+
+.tm-gallery-item figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Bubba *****/
+/*---------------*/
+
+
+
+figure.effect-bubba img {
+  opacity: 1;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+
+
+figure.effect-bubba h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+}
+
+figure.effect-bubba p {
+  width: 100%;
+  padding: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.mobileGallery{
+  margin: 40px;
+}
+
+
+
+@media (max-width: 383px) {
+  .slick-dots {
+    bottom: -40px;
+  }
+}

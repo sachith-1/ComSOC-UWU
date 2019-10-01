@@ -1,0 +1,134 @@
+/* Icon set - http://ionicons.com */
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+figure.snip1237 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 20px 20px; 1%;
+  min-width: 250px;
+  max-width: 250px;
+  width: 100%;
+  background: #1a1a1a;
+  color: #ffffff;
+  text-align: left;
+ 
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+figure.snip1237 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+figure.snip1237 .image {
+    height: 250px; 
+    overflow: hidden;
+    position: relative; 
+}
+
+
+figure.snip1237 h3 {
+  margin: 0 0 3px;
+  font-weight: 900;
+  font-size:15px;
+}
+figure.snip1237 p {
+  margin: 0;
+}
+
+/* ----------------------------------------------------WHITESPACE START */
+
+figure.snip1237 figcaption {
+  /* padding order: top right bottom left */
+  padding: 5px 20px 15px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  position: relative;
+  font-size: 0.9em;
+}
+
+figure.snip1237 figcaption p {
+  margin-bottom: 15px;
+}
+
+figure.snip1237 figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+}
+
+
+
+/* ----------------------------------------------------WHITESPACE END */
+
+
+/* ----------------------------------------------------READ MORE START */
+
+figure.snip1237 .read-more {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #20638f;
+  padding: 0.4em 0.6em;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  background-color: #20638f;
+}
+
+figure.snip1237 .read-more:hover {
+  background-color: #ba2f00;
+  color: #ffffff;
+}
+/* ----------------------------------------------------READ MORE END */
+
+
+
+/* ----------------------------------------------------HOVER START */
+
+figure.snip1237:hover:before,
+figure.snip1237.hover:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: skew(-45deg) translateX(-50%);
+  transform: skew(-45deg) translateX(-50%);
+}
+figure.snip1237:hover:after,
+figure.snip1237.hover:after {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transform: skew(-45deg) translateX(-75%);
+  transform: skew(-45deg) translateX(-75%);
+}
+
+/* ----------------------------------------------------HOVER END */
+
+
+/* Image Resizer */
+figure.snip1237:hover img,
+figure.snip1237.hover img {
+  -webkit-transform: scale(25);
+  transform: scale(1.25);
+}
+/* Demo purposes only */
+body {
+  background-color: #ffffff;
+}
